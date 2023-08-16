@@ -75,7 +75,7 @@ RUN set -eux; \
         echo 'memory_limit = 500M'; \
         echo 'upload_max_filesize = 500M'; \
         echo 'post_max_size = 500M'; \
-        echo 'max_execution_time = 600'; \
+        echo 'max_execution_time = 1000'; \
 	} > /usr/local/etc/php/conf.d/file-upload.ini
 
 # Setup supervisor
