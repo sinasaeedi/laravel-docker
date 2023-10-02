@@ -76,6 +76,7 @@ RUN set -eux; \
         echo 'upload_max_filesize = 500M'; \
         echo 'post_max_size = 500M'; \
         echo 'max_execution_time = 1000'; \
+        echo 'client_max_body_size = 100M'; \
 	} > /usr/local/etc/php/conf.d/file-upload.ini
 
 # Setup supervisor
